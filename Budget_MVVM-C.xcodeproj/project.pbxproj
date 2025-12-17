@@ -15,7 +15,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		E9D29AE72EABD92300E3FBA3 /* Exceptions for "Budget_MVVM-C" folder in "Budget_MVVM-C" target */ = {
+		E954CF302EF33EC900E38FD4 /* Exceptions for "Budget_MVVM-C" folder in "Budget_MVVM-C" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Resources/Configuration/Info.plist,
@@ -28,7 +28,7 @@
 		E9D29AD72EABD92100E3FBA3 /* Budget_MVVM-C */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				E9D29AE72EABD92300E3FBA3 /* Exceptions for "Budget_MVVM-C" folder in "Budget_MVVM-C" target */,
+				E954CF302EF33EC900E38FD4 /* Exceptions for "Budget_MVVM-C" folder in "Budget_MVVM-C" target */,
 			);
 			path = "Budget_MVVM-C";
 			sourceTree = "<group>";
