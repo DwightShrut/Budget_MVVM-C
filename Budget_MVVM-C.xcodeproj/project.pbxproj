@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		E94BED472EC4DA9700B7F0E6 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = E9D29C8F2EABFA8600E3FBA3 /* SnapKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		E9D29AD52EABD92100E3FBA3 /* Budget_MVVM-C.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Budget_MVVM-C.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -14,7 +18,7 @@
 		E9D29AE72EABD92300E3FBA3 /* Exceptions for "Budget_MVVM-C" folder in "Budget_MVVM-C" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Configuration/Info.plist,
 			);
 			target = E9D29AD42EABD92100E3FBA3 /* Budget_MVVM-C */;
 		};
@@ -36,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E94BED472EC4DA9700B7F0E6 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +83,15 @@
 			);
 			name = "Budget_MVVM-C";
 			packageProductDependencies = (
+				E9D29B722EABE3CD00E3FBA3 /* SnapKit */,
+				E9D29B742EABE44200E3FBA3 /* SnapKit */,
+				E9D29B772EABE4AE00E3FBA3 /* SnapKit */,
+				E9D29BA62EABE55B00E3FBA3 /* SnapKit */,
+				E9D29BA82EABE55B00E3FBA3 /* SnapKit-Dynamic */,
+				E9D29BAA2EABE59B00E3FBA3 /* SnapKit */,
+				E9D29BAC2EABE61200E3FBA3 /* SnapKit */,
+				E9D29BAF2EABE6A000E3FBA3 /* SnapKit */,
+				E9D29C8F2EABFA8600E3FBA3 /* SnapKit */,
 			);
 			productName = "Budget_MVVM-C";
 			productReference = E9D29AD52EABD92100E3FBA3 /* Budget_MVVM-C.app */;
@@ -107,6 +121,9 @@
 			);
 			mainGroup = E9D29ACC2EABD92100E3FBA3;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				E9D29C892EABFA0E00E3FBA3 /* XCLocalSwiftPackageReference "../../../SnapKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = E9D29AD62EABD92100E3FBA3 /* Products */;
 			projectDirPath = "";
@@ -145,8 +162,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Budget_MVVM-C/Info.plist";
+				INFOPLIST_FILE = "Budget_MVVM-C/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -172,8 +190,9 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Budget_MVVM-C/Info.plist";
+				INFOPLIST_FILE = "Budget_MVVM-C/Resources/Configuration/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,6 +352,52 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		E9D29C892EABFA0E00E3FBA3 /* XCLocalSwiftPackageReference "../../../SnapKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../../../SnapKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E9D29B722EABE3CD00E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+		E9D29B742EABE44200E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+		E9D29B772EABE4AE00E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+		E9D29BA62EABE55B00E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+		E9D29BA82EABE55B00E3FBA3 /* SnapKit-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = "SnapKit-Dynamic";
+		};
+		E9D29BAA2EABE59B00E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+		E9D29BAC2EABE61200E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+		E9D29BAF2EABE6A000E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+		E9D29C8F2EABFA8600E3FBA3 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E9D29ACD2EABD92100E3FBA3 /* Project object */;
 }
